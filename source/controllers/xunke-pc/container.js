@@ -6,4 +6,5 @@ const Server = require('react-dom/server');
 
 module.exports = async (ctx, next) => {
   await ctx.render('xunke-pc/index');
+
 };
