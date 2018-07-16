@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./source/start/index.js",
+    "dev": "nodemon ./server/start/index.js",
     "test": "eslint ./"
   },
   "devDependencies": {
@@ -27,7 +27,9 @@
     "winston": "^1.1.1"
   },
   "dependencies": {
+    "babel-loader": "^7.1.5",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "webpack": "^4.16.1"
   }
 }

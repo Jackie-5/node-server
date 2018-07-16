@@ -7,9 +7,9 @@ module.exports = {
   port: 12000,
   STATIC_DIR: path.join(process.cwd(), 'service', 'static'),
   ROUTER: {
-    configDir: 'source/routers',
-    actionDir: 'source/controllers'
+    configDir: 'server/routers',
+    actionDir: 'server/controllers'
   },
   LOG_DIR: '/data/applogs/',
-  viewDir: 'source/render-views',
+  viewDir: 'server/render-views',
 };
